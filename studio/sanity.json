@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "project": {
+    "name": "beige-squid-0cf53"
+  },
+  "api": {
+    "projectId": "g8h9ai4k",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "markdown",
+    "@sanity/color-input"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    },
+    {
+      "name": "part:@sanity/desk-tool/structure",
+      "path": "./deskStructure.js"
+    }
+  ]
+}
